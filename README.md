@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # C & C++ Programming Repository
 
 This repository contains all my C and C++ programming practice files, organized by topic and chapter.
@@ -26,3 +27,6 @@ To run or modify these programs:
 ## License
 
 This repository is for educational and personal use.
+=======
+# C-Cpp_programs
+>>>>>>> 92713fdf3adae1724d38f35d637f1e8450b933b9
