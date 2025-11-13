@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "MINI_PROJECT_1.C": "cpp"
     }
 }

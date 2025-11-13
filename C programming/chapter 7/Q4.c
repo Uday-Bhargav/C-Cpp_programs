@@ -14,7 +14,7 @@ int main()
     }
     for (int i = 0; i < 10; i++)
     {
-        printf("The value of %d X %d is %d\n" , n , i , arr[i]);
+        printf("The value of %d X %d is %d\n" , n , i+1 , arr[i]);
     }
     return 0;
 }
