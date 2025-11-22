@@ -1,5 +1,5 @@
 /*In C++, typedef is used to create an alias for an existing variable.
-With the help of typedef we can create our own virtual datatype thatis not
+With the help of typedef we can create our own virtual datatype that is not
 a part of c++ but can be used as datatype.*/
 
 #include <iostream>

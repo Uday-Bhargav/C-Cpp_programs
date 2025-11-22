@@ -1,5 +1,5 @@
 /*Unions are user defined data types, in which all the data is saved in a 
-single contiguous memory location.Or all the members are saved in a single
+single contiguous memory location. Or all the members are saved in a single
 memory location.
 The size of the union will always be equal to the size of the largest 
 member of the union.*/
