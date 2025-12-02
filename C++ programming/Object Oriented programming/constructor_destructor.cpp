@@ -30,6 +30,7 @@ public:
 int main()
 {
     mobile m; // Object declaration.
+    //Constructor is automatically called when an object is created.
 
     m.call();
     // When program ends object goes out of scope

@@ -20,12 +20,12 @@ public:
     }
     ~chocolate()
     {
-        delete[] ptr;
+        delete[] ptr; //Good practice to delete the memory after using it.
     }
     void show() // Member function.
     {
         // Showing the number of chocolates.
-        cout << "Number of chocolates: " << ptr << endl;
+        cout << "Number of chocolates: " << endl;
         for (int i = 0; i < 5; i++)
         {
             cout << ptr[i] << " ";
