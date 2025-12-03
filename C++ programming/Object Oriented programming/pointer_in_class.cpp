@@ -1,28 +1,30 @@
 #include <iostream>
 using namespace std;
 
-class IT
+class student
 {
 private:
-    int i;
+    int *marks;
 
 public:
-    void get()
+    student(int m)
     {
-        cout << "Enter number of students: " << endl;
-        cin >> i;
+        marks = new int;
+        *marks = m;
     }
     void show()
     {
-        cout << "Number of students: " << i << endl;
+        cout << "Marks: " << *marks << endl;
+    }
+    ~student()
+    {
+        cout << "Memory freed." << endl;
     }
 };
-
 int main()
 {
-    IT obj;
-    IT *ptr;
-    ptr = &obj;
-    ptr->get();
-    ptr->show();
+    student s1(95);
+    s1.show();
+
+    return 0;
 }

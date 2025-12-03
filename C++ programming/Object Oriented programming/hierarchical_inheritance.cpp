@@ -1,7 +1,7 @@
 /*In hierarchical inheritance more than one child class
 inherits the property of a single base class.
 Real life example:-
-Branhes of a tree(May thin branches come out from a single thick
+Branches of a tree(May thin branches come out from a single thick
 or a root branch).*/
 
 #include <iostream>

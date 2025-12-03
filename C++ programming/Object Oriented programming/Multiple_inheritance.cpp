@@ -48,7 +48,7 @@ int main()
 }
 
 /*So sometimes when both the parent class have same function
-name, then child class get confused that which propert and behaviour
+name, then child class get confused that which property and behaviour
 to inherit, and this gives a compiler error.
 This error is known as ambiguity error.
 We'll solve ambiguity error.*/

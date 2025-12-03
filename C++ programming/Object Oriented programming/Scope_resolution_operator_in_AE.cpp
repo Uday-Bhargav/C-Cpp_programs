@@ -21,6 +21,12 @@ public:
 };
 class D : public B1, public B2
 {
+    //We can also put scope resolution operator in show.
+    //public:
+    //void show(){
+    //B1::get();
+    //B2::get();
+    //}
 };
 
 int main()
