@@ -27,7 +27,7 @@ int main()
     D obj2;
 
     B *ptr;
-     ptr = &obj1;
+    ptr = &obj1;
     ptr->show();
     ptr = &obj2;
     ptr->show();
