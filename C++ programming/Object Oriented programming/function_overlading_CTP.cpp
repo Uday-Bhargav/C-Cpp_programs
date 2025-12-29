@@ -1,6 +1,6 @@
 /*Function overloading means the use of same function or the
 function of same to perform different tasks by passing number
-different arguments.
+of different arguments.
 Function overloading is also known as 'Method overloading'.*/
 
 #include <iostream>

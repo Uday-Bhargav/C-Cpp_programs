@@ -1,10 +1,10 @@
-/*Pure virtual function is a virtual function that is declared wit 0 at the end,
+/*Pure virtual function is a virtual function that is declared with 0 at the end,
 and that has no body or code inside it, and it is initialized in base class.
 It is called pure because it is 100% virtual.
 A normal virtual function may be overridden.
 A pure virtual function must be overridden.
-Pure virtual function is used because sometimes base class  doesn,t know
-how the function should behave, it only knows that th function must exists.*/
+Pure virtual function is used because sometimes base class  doesn't know
+how the function should behave, it only knows that the function must exists.*/
 
 #include <iostream>
 using namespace std;
