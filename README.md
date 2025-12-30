@@ -74,7 +74,8 @@ Concept clarity
 
 🚀 Getting Started
 1️⃣ Clone the Repository
-git clone https://github.com/Uday-Bhargav/C-Cpp_programming.git
+git clone
+https://github.com/Uday-Bhargav/C-Cpp_programs
 
 2️⃣ Open in Editor
 
