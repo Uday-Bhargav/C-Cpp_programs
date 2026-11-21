@@ -1,5 +1,5 @@
 /*Abstraction is the process of hiding internal and unnecessary details
-amd showing any important things to the user.
+and showing any important things to the user.
 This promotes reducing complexity, and increases more clear understanding
 about the code and output, as well as real life scenarios like how things
 are working in backend.*/

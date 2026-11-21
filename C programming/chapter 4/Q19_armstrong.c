@@ -15,11 +15,11 @@ int main()
     }
     if (sum == num)
     {
-        printf("%d is a palindrome", num);
+        printf("%d is a armstrong", num);
     }
     else
     {
-        printf("%d is not a palindrome", num);
+        printf("%d is not a armstrong", num);
     }
     return 0;
 }

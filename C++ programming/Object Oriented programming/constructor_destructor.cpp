@@ -36,5 +36,5 @@ int main()
     // When program ends object goes out of scope
     // and destructor gets automatically called.
 
-    return 0;
+    return 0;    
 }

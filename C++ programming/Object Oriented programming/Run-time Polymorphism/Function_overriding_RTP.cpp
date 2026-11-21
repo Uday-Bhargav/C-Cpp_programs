@@ -1,5 +1,5 @@
 /*In method/function overriding the child class has the same function name
-, same arguments , and smae return type as of the parent class.
+, same arguments , and same return type as of the parent class.
 Child class rewrites the parent function.
 Method/function overriding is a runtime polymorphism because which
 function will run will be decided at the runtime.*/

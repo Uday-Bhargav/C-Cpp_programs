@@ -1,4 +1,4 @@
-/*wap to sumthe digits of a number*/
+/*wap to sum the digits of a number*/
 
 #include <stdio.h>
 int main()
