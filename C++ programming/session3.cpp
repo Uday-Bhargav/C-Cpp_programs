@@ -419,56 +419,194 @@
 
 //Q13.Linear search.
 
-#include<iostream>
-#include<vector>
-using namespace std;
+// #include<iostream>
+// #include<vector>
+// using namespace std;
 
-bool linear_search(int arr[] , int n , int key)
-{
-    for(int i = 0 ; i < n ; i++)
-    {
-        if(arr[i] == key)
-        {
-            return 1;
-        }
-    }
-    return 0;
-}
+// bool linear_search(int arr[] , int n , int key)
+// {
+//     for(int i = 0 ; i < n ; i++)
+//     {
+//         if(arr[i] == key)
+//         {
+//             return 1;
+//         }
+//     }
+//     return 0;
+// }
 
-int main()
-{
-    int n;
-    cout << "Enter size : ";
-    cin >> n;
+// int main()
+// {
+//     int n;
+//     cout << "Enter size : ";
+//     cin >> n;
 
-    int arr[100];
-    cout << "Enter array elements : ";
-    for(int i = 0 ; i < n ; i++)
-    {
-        cin >> arr[i];
-    }
+//     int arr[100];
+//     cout << "Enter array elements : ";
+//     for(int i = 0 ; i < n ; i++)
+//     {
+//         cin >> arr[i];
+//     }
 
-    cout << "Array elements are : ";
-    for(int i = 0 ; i < n ; i++)
-    {
-        cout << arr[i] << " ";
-    }
-    cout << endl;
+//     cout << "Array elements are : ";
+//     for(int i = 0 ; i < n ; i++)
+//     {
+//         cout << arr[i] << " ";
+//     }
+//     cout << endl;
 
-    int key;
-    cout << "Enter element to search : ";
-    cin >> key;
+//     int key;
+//     cout << "Enter element to search : ";
+//     cin >> key;
 
-    bool found = linear_search(arr , n , key);
+//     bool found = linear_search(arr , n , key);
 
-    if(found)
-    {
-        cout << "Element found" <<  endl;
-    }
-    else
-    {
-        cout << "Element not found." << endl;
-    }
+//     if(found)
+//     {
+//         cout << "Element found" <<  endl;
+//     }
+//     else
+//     {
+//         cout << "Element not found." << endl;
+//     }
 
-    return 0;
-}
+//     return 0;
+// }
+
+//Q14.Find string length without using strlen().
+
+// #include<iostream>
+// #include<string>
+// using namespace std;
+
+// int main()
+// {
+//     string s;
+//     cout << "Enter a string : ";
+//     cin >> s;
+
+//     int count = 0;
+
+//     for(int i = 0 ; s[i] != '\0' ; i++)
+//     {
+//         count++;
+//     }
+
+//     cout << count;
+
+//     return 0;
+// }
+
+//Q15(a).Reverse a string.(With two pointers approach.)
+
+// #include<iostream>
+// #include<string>
+// using namespace std;
+
+// int main()
+// {
+//     string s;
+//     cout << "Enter a string : ";
+//     getline(cin , s);
+
+//     int start = 0;
+//     int end = s.length() - 1;
+
+//     while(start < end)
+//     {
+//         swap(s[start] , s[end]);
+//         start++;
+//         end--;
+//     }
+
+//     cout << s;
+
+//     return 0;
+// }
+
+//Q15(b).Reverse a string.(Using reverse built in function)
+// #include<iostream>
+// #include<string>
+// #include<algorithm>
+// using namespace std;
+
+// int main()
+// {
+//     string s;
+//     cout << "Enter a string : ";
+//     getline(cin , s);
+
+//     reverse(s.begin() , s.end());
+
+//     cout << s;
+
+//     return 0;
+// }
+
+//Q16.Check whether a string is palindrome.
+
+// #include<iostream>
+// #include<string>
+// #include<algorithm>
+// using namespace std;
+
+// int main()
+// {
+//     string s;
+//     cout << "Enter a string : ";
+//     getline(cin , s);
+
+//     string temp = s;
+
+//     reverse(s.begin() , s.end());
+
+//     cout << "Reversed string is : " <<  s << endl;
+
+//     if(temp == s)
+//     {
+//         cout << "string is palindrome.";
+//     }
+//     else
+//     {
+//         cout << "string is not palindrome.";
+//     }
+
+//     return 0;
+// }
+
+//Q17.Count vowels and consonants.
+
+// #include<iostream>
+// #include<string>
+// using namespace std;
+
+// int main()
+// {
+//     string s;
+//     cout << "Enter string : ";
+//     getline(cin , s);
+
+//     int count_vowel = 0;
+//     int count_consonent = 0;
+//     for(int i = 0 ; i <= s.size() ; i++)
+//     {
+//         if(s[i] >= 'A' && s[i] <= 'Z' || s[i] >= 'a' && s[i] <= 'z')
+//         {
+//                if(s[i] == 'a' || s[i] == 'e' || s[i] == 'i' || s[i] == 'o' || s[i] == 'u' || s[i]== 'A' || s[i] == 'E' || s[i] == 'I' || s[i] == 'O' || s[i] == 'U')
+//                {
+//                    count_vowel++;
+//                }
+//                else
+//                {
+//                    count_consonent++;
+//                }
+//         }
+//     }
+    
+
+//     cout << "Number of vowels in string is : " << count_vowel << endl;
+//     cout << "Number of consonent in string is : " << count_consonent << endl;
+
+//     return 0;
+// }
+
